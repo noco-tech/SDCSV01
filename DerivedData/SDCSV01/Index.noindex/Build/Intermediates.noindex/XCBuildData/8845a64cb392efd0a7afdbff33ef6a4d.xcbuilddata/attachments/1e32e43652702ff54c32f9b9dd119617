@@ -1,0 +1,21 @@
+{
+  "" : {
+    "dependencies" : "/Users/penguin/Documents/dev/swift-project/SDCSV01/DerivedData/SDCSV01/Index.noindex/Build/Intermediates.noindex/SDCSV01.build/Debug-iphonesimulator/SDCSV01.build/Objects-normal/x86_64/SDCSV01-master.d",
+    "diagnostics" : "/Users/penguin/Documents/dev/swift-project/SDCSV01/DerivedData/SDCSV01/Index.noindex/Build/Intermediates.noindex/SDCSV01.build/Debug-iphonesimulator/SDCSV01.build/Objects-normal/x86_64/SDCSV01-master.dia",
+    "emit-module-dependencies" : "/Users/penguin/Documents/dev/swift-project/SDCSV01/DerivedData/SDCSV01/Index.noindex/Build/Intermediates.noindex/SDCSV01.build/Debug-iphonesimulator/SDCSV01.build/Objects-normal/x86_64/SDCSV01-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/penguin/Documents/dev/swift-project/SDCSV01/DerivedData/SDCSV01/Index.noindex/Build/Intermediates.noindex/SDCSV01.build/Debug-iphonesimulator/SDCSV01.build/Objects-normal/x86_64/SDCSV01-master-emit-module.dia",
+    "swift-dependencies" : "/Users/penguin/Documents/dev/swift-project/SDCSV01/DerivedData/SDCSV01/Index.noindex/Build/Intermediates.noindex/SDCSV01.build/Debug-iphonesimulator/SDCSV01.build/Objects-normal/x86_64/SDCSV01-master.swiftdeps"
+  },
+  "/Users/penguin/Documents/dev/swift-project/SDCSV01/DerivedData/SDCSV01/Index.noindex/Build/Intermediates.noindex/SDCSV01.build/Debug-iphonesimulator/SDCSV01.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+
+  },
+  "/Users/penguin/Documents/dev/swift-project/SDCSV01/SDCSV01/ContentView.swift" : {
+
+  },
+  "/Users/penguin/Documents/dev/swift-project/SDCSV01/SDCSV01/Item.swift" : {
+
+  },
+  "/Users/penguin/Documents/dev/swift-project/SDCSV01/SDCSV01/SDCSV01App.swift" : {
+
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "buildCommand" : {
+    "command" : "preview",
+    "style" : "dynamicReplacement"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "b85d454587636f0ea8159dcc6f00a1378eb1a04ced43f7f5db2fd68c9dbf7375"
+    }
+  ],
+  "containerPath" : "/Users/penguin/Documents/dev/swift-project/SDCSV01/SDCSV01.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator17.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/penguin/Documents/dev/swift-project/SDCSV01/DerivedData/SDCSV01/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/penguin/Documents/dev/swift-project/SDCSV01/DerivedData/SDCSV01/Build/Products",
+      "derivedDataPath" : "/Users/penguin/Documents/dev/swift-project/SDCSV01/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/penguin/Documents/dev/swift-project/SDCSV01/DerivedData/SDCSV01/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/penguin/Documents/dev/swift-project/SDCSV01/DerivedData/SDCSV01/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/penguin/Documents/dev/swift-project/SDCSV01/DerivedData/SDCSV01/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "DSTROOT" : "/Users/penguin/Documents/dev/swift-project/SDCSV01/DerivedData/SDCSV01/Build/Intermediates.noindex/Previews/SDCSV01/ReleaseProducts",
+          "ENABLE_PREVIEWS" : "YES",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "OBJROOT" : "/Users/penguin/Documents/dev/swift-project/SDCSV01/DerivedData/SDCSV01/Build/Intermediates.noindex/Previews/SDCSV01/Intermediates.noindex",
+          "SYMROOT" : "/Users/penguin/Documents/dev/swift-project/SDCSV01/DerivedData/SDCSV01/Build/Intermediates.noindex/Previews/SDCSV01/Products"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
