@@ -90,6 +90,48 @@
 			<key>uniqueIdentifier</key>
 			<string>39D459E6-9C6C-433C-9C02-BC3B9C36E40C</string>
 		</dict>
+		<key>751B3A90-695A-4F62-8119-D35A693F8EF8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>751B3A90-695A-4F62-8119-D35A693F8EF8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SDCSV01 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SDCSV01</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SDCSV01</string>
+			<key>timeStartedRecording</key>
+			<real>732534882.34551597</real>
+			<key>timeStoppedRecording</key>
+			<real>732534884.33719504</real>
+			<key>title</key>
+			<string>Build SDCSV01</string>
+			<key>uniqueIdentifier</key>
+			<string>751B3A90-695A-4F62-8119-D35A693F8EF8</string>
+		</dict>
 		<key>A574B607-212D-4ED1-9FF0-DA993F7C8685</key>
 		<dict>
 			<key>className</key>
@@ -173,6 +215,48 @@
 			<string>Build SDCSV01</string>
 			<key>uniqueIdentifier</key>
 			<string>C4312E50-D755-47AD-8481-8B16BBB0105B</string>
+		</dict>
+		<key>D01BE769-6F61-4EA2-A024-6CB293F8D4C2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D01BE769-6F61-4EA2-A024-6CB293F8D4C2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SDCSV01 project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SDCSV01</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SDCSV01</string>
+			<key>timeStartedRecording</key>
+			<real>732534360.79638004</real>
+			<key>timeStoppedRecording</key>
+			<real>732534363.74917901</real>
+			<key>title</key>
+			<string>Build SDCSV01</string>
+			<key>uniqueIdentifier</key>
+			<string>D01BE769-6F61-4EA2-A024-6CB293F8D4C2</string>
 		</dict>
 	</dict>
 </dict>

@@ -10,7 +10,7 @@ import SwiftData
 
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
-    @Query private var devices: [DeviceName]
+    @Query(sort:[SortDescriptor(\DeviceName.device)]) private var devices: [DeviceName]
 
     var body: some View {
         NavigationSplitView {
