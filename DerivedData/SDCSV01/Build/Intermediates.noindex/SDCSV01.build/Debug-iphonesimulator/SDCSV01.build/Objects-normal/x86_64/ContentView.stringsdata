@@ -4,11 +4,11 @@
     "Localizable": [
       {
         "comment": "",
-        "key": "Item at %@"
+        "key": "%@ の画面サイズ: %@"
       },
       {
         "comment": "",
-        "key": "Add Item"
+        "key": "Load CSV"
       },
       {
         "comment": "",

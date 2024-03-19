@@ -10,27 +10,27 @@ import SwiftData
 
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
-    @Query private var items: [DeviceName]
+    @Query private var devices: [DeviceName]
 
     var body: some View {
         NavigationSplitView {
             List {
-                ForEach(items) { item in
+                ForEach(devices) { item in
                     NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
+                        Text("\(item.device) の画面サイズ: \(item.screenSize)")
                     } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
+                        Text(item.device)
                     }
                 }
-                .onDelete(perform: deleteItems)
+//                .onDelete(perform: deleteItems)
             }
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     EditButton()
                 }
                 ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
+                    Button(action: loadCSV) {
+                      Text("Load CSV")
                     }
                 }
             }
@@ -38,21 +38,37 @@ struct ContentView: View {
             Text("Select an item")
         }
     }
-
-    private func addItem() {
-        withAnimation {
-            let newItem = DeviceName(timestamp: Date())
-            modelContext.insert(newItem)
-        }
-    }
-
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            for index in offsets {
-                modelContext.delete(items[index])
+    
+    private func loadCSV() {
+//        print("Load CSV")
+        let mainBundle = Bundle.main
+        if let path = mainBundle.path(forResource: "device", ofType:  "csv") {
+            if let instr = try? String(contentsOfFile: path) {
+                instr.enumerateLines{ (line, stop) -> () in
+//                  print("line=>\(line)<") // 1行の内容を確認
+                    let compo = line.components(separatedBy: ",")
+//                    print("compo[0]=「\(compo[0])」, compo[1]=「\(compo[1])」")
+                    let newItem = DeviceName(device: compo[0], screenSize: compo[1])
+                    modelContext.insert(newItem)
+                }
             }
         }
     }
+
+//    private func addItem() {
+//        withAnimation {
+//            let newItem = DeviceName(timestamp: Date())
+//            modelContext.insert(newItem)
+//        }
+//    }
+//
+//    private func deleteItems(offsets: IndexSet) {
+//        withAnimation {
+//            for index in offsets {
+//                modelContext.delete(items[index])
+//            }
+//        }
+//    }
 }
 
 #Preview {
