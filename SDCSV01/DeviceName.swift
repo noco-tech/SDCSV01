@@ -10,9 +10,11 @@ import SwiftData
 
 @Model
 final class DeviceName {
-    var timestamp: Date
+    var device: String
+    var screenSize: String
     
-    init(timestamp: Date) {
-        self.timestamp = timestamp
+    init(device: String, screenSize: String) {
+        self.device = device
+        self.screenSize = screenSize
     }
 }
